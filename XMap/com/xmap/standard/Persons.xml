@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- XMap_Xml文件定义规范 -->
+<!-- 1.映射的节点必须在根节点下 -->
+<!-- 2.映射的节点里面的属性/子节点,它们的名字要与实体类中的字段名字相符,否则将无法映射 -->
+<persons> 
+  <person id="1"> 
+    <name>Steve</name>  
+    <job>Computer Programmer</job> 
+  </person>  
+  <person id="2"> 
+    <name>Kris</name>  
+    <job>Texi Driver</job> 
+  </person>  
+  <person id="3"> 
+    <name>Lucy</name>  
+    <job>Sportsman</job> 
+  </person>  
+</persons>
